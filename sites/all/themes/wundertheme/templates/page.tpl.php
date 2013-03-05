@@ -86,14 +86,18 @@
 
       <?php if ($logo): ?>
         <figure class="logo">
-        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-        </a>
+          <?php if(drupal_is_front_page()): ?>
+            <img src="<?php print $logo; ?>" alt="<?php print t('Logo Dieter Verhelst'); ?>" title="<?php print t('Verhelst sanitair en verwarming'); ?>" />
+          <?php else: ?>
+            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
+              <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+            </a>
+          <?php endif; ?>
         </figure>
       <?php endif; ?>
 
       <?php if($site_name OR $site_slogan ): ?>
-        <hgroup class="site-name">
+        <hgroup class="site-name element-invisible">
           <?php if($site_name): ?>
             <?php if($is_front): ?>
               <h1><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a></h1>
@@ -137,19 +141,13 @@
         <?php print render($page['highlighted']); ?>
       <?php } ?>
 
-      <?php if($messages){ ?>
-        <div class="drupal-messages">
-          <?php print $messages; ?>
-        </div>
-      <?php } ?>
-
       <?php if ($title && !$is_front): ?>
         <?php print render($title_prefix); ?>
           <h1><?php print $title; ?></h1>
         <?php print render($title_suffix); ?>
       <?php endif; ?>
 
-      <?php print $breadcrumb; ?>
+      <?php // print $breadcrumb; ?>
 
       <?php if ($action_links): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
@@ -167,6 +165,11 @@
 
     <?php if ($page['sidebar_second']): ?>
     <aside role="complementary" class="sidebar sidebar_second">
+      <?php if($messages){ ?>
+        <div class="drupal-messages">
+          <?php print $messages; ?>
+        </div>
+      <?php } ?>
       <?php print render($page['sidebar_second']); ?>
     </aside>
     <?php endif; ?>

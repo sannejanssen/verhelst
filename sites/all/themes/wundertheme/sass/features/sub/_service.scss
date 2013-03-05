@@ -1,0 +1,67 @@
+/*
+ * Feature 1
+ */
+
+/* Layout */
+.node-service {
+  &.view-mode-teaser {
+    @include span-columns(6,6);
+
+    @include at-breakpoint($breakpoint_1) {
+      @include span-columns(4,8);
+      
+      &:nth-child(2n+2) {
+        @include span-columns(4 omega,8);
+      }
+    }
+
+    @include at-breakpoint($breakpoint_2) {
+      @include span-columns(7,15);
+
+      &:nth-child(2n+2) {
+        @include span-columns(7,15);
+      }
+    }
+  }
+}
+
+
+/* Theming */
+.node-service {
+  &.view-mode-teaser {
+    margin-bottom: 4em; /* 64px on a 16px base font size */
+    text-align: center;
+    
+    h2 {
+      color: $verhelst-blue;
+    }
+
+    p {
+      padding: 0 1em;
+    }
+
+    @include at-breakpoint($breakpoint_2) {
+      min-height: 23em;
+      margin-bottom: 2em;
+    } 
+    @include at-breakpoint(65em lt-ie9) {
+      min-height: 20em;
+    } 
+
+  }
+}
+
+
+.view-mode-teaser.heating h2 {
+  color: #0c7ec3;
+}
+.view-mode-teaser.ventilation h2 {
+  color: #6ba5d9; 
+}
+.view-mode-teaser.sanitair h2 {
+  color: #0062a7;
+}
+.view-mode-teaser.solar h2 {
+  color: #84d0f5;
+}
+

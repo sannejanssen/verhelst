@@ -14,6 +14,27 @@ function wundertheme_form_search_block_form_alter(&$form, &$form_state, $form_id
 }
 
 /**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * Adds a placeholder to the form input text fields.
+ */
+function wundertheme_form_webform_client_form_10_alter(&$form, &$form_state, $form_id) {
+
+  /* Hide label fields */
+  $form['submitted']['naam']['#title_display'] = 'none';
+  $form['submitted']['emailadres']['#title_display'] = 'none';
+  $form['submitted']['telefoon_gsm']['#title_display'] = 'none';
+
+  /* Add placeholders */
+  $form['submitted']['naam']['#attributes']['placeholder'] = 'Naam *';
+  $form['submitted']['emailadres']['#attributes']['placeholder'] = 'E-mailadres *';
+  $form['submitted']['telefoon_gsm']['#attributes']['placeholder'] = 'Telefoon/GSM';
+
+  /* Add custom title */
+  $form['submitted']['betreft']['#title'] = 'Betreft <span>(vink aan)</span>';
+}
+
+/**
  * Implements hook_css_alter().
  */
 function wundertheme_css_alter(&$css) {

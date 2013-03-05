@@ -7,30 +7,8 @@
 
 /* Main menu */
 
-.primary_navigation {
-  h2 {
-    display: none;
-  }
-  ul.menu {
-    @extend %horizontal-menu;
-    text-align: center;
-    li {
-      margin: 0;
-      padding: 0;
-    }
-    a {
-      text-decoration: none;
-      display: inline-block;
-      &:hover,
-      &:focus,
-      &:active {
-        text-decoration: underline;
-      }
-    }
-  }
-}
-/* Base link settings */
 
+/* Base link settings */
 a {
   color: $base-link-color;
 
@@ -50,4 +28,119 @@ html {
   }
 }
 
-  
+header {
+  margin-bottom: 3.750em; /* 60px on a 16px base font size */
+  .logo {
+    @include span-columns(11);
+    text-align: center;
+    border-bottom: 1px solid #0c7ec3;
+    padding: 1.250em 0; /* 20px 0 on a 16px base font size */
+  }
+}
+
+aside {
+  background-color: #f7f7f6;
+  padding: 40px;
+
+  h2 {
+    margin-top: 0;
+    color: #0c7ec3;
+  }
+
+  label {
+    font-weight: normal;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .webform-component {
+    @include span-columns(4,4);
+    margin-bottom: 0;
+  }
+
+  .webform-component-checkboxes {
+    label {
+      span {
+        color: #878786;
+      }
+    }
+  }
+
+  .form-checkboxes {
+    .form-type-checkbox {
+      @include span-columns(4,4);
+      margin-bottom: 0;
+      margin-top: 3px;
+
+      input {
+        @include span-columns(2,30);
+      }
+      label {
+        @include span-columns(28 omega,30);
+      }
+
+      @include at-breakpoint($breakpoint_1) {
+        input {
+          @include span-columns(2,40);
+        }
+        label {
+          @include span-columns(38 omega,40);
+        }
+      }
+      @include at-breakpoint(40em lt-ie9) {
+        input {
+          @include span-columns(2,50);
+        }
+        label {
+          @include span-columns(48 omega,50);
+        }
+      }
+      @include at-breakpoint($breakpoint_2) {
+        input {
+          @include span-columns(2,25);
+        }
+        label {
+          @include span-columns(23 omega,25);
+        }
+      }
+    }
+  }
+
+  .form-actions {
+    .form-submit {
+      background-color: #0c7ec3;
+      border: none;
+      width: auto;
+      padding: 10px 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin-top: 1em;
+      @include border-radius(5px);
+
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: #0062a7;
+        -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s false;
+      }
+    }
+  }  
+}
+
+.drupal-messages {
+  margin-bottom: 2em;
+}
+
+.node-page {
+  p {
+    margin-bottom: 10px;
+  }
+}
