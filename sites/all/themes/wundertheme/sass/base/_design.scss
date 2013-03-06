@@ -57,7 +57,7 @@ aside {
   h2 {
     margin-top: 0;
     color: #0c7ec3;
-    font-family: "caviar_dreamsregular", $base-font-family;
+    font-family: "caviar_dreamsbold", $base-font-family;
     font-weight: normal;
   }
 
@@ -141,6 +141,8 @@ aside {
       text-transform: uppercase;
       margin-top: 1em;
       @include border-radius(5px);
+      font-family: "caviar_dreamsbold", $base-font-family;
+      font-weight: normal;
 
       &:hover,
       &:active,

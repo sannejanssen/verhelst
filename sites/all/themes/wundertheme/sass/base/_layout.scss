@@ -54,31 +54,8 @@ header, footer, .main {
 
 aside {
   @include span-columns(11);
-  
-  .block-webform {
-    @include span-columns(6,6);
-  }
-  .block-block {
-    @include span-columns(6,6);
-  }
-
-  @include at-breakpoint($breakpoint_1) {
-    .block-webform {
-      @include span-columns(3,6);
-    }
-    .block-block {
-      @include span-columns(2 omega,6);
-    }
-  }
 
   @include at-breakpoint($breakpoint_2) {
     @include span-columns(4 omega,11);
-
-    .block-webform {
-      @include span-columns(6,6);
-    }
-    .block-block {
-      @include span-columns(6,6);
-    }
   }
 }

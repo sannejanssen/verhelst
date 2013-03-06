@@ -392,67 +392,12 @@ aside {
   margin-right: 1.85185%;
   display: inline;
 }
-/* line 58, ../sass/base/_layout.scss */
-aside .block-webform {
-  width: 100%;
-  float: left;
-  margin-right: 3.44828%;
-  display: inline;
-}
-/* line 61, ../sass/base/_layout.scss */
-aside .block-block {
-  width: 100%;
-  float: left;
-  margin-right: 3.44828%;
-  display: inline;
-}
-@media (min-width: 35em) {
-  /* line 66, ../sass/base/_layout.scss */
-  aside .block-webform {
-    width: 48.27586%;
-    float: left;
-    margin-right: 3.44828%;
-  }
-  /* line 69, ../sass/base/_layout.scss */
-  aside .block-block {
-    width: 31.03448%;
-    float: right;
-    margin-right: 0;
-  }
-}
-/* line 66, ../sass/base/_layout.scss */
-.lt-ie9 aside .block-webform {
-  width: 48.27586%;
-  float: left;
-  margin-right: 3.44828%;
-  display: inline;
-}
-/* line 69, ../sass/base/_layout.scss */
-.lt-ie9 aside .block-block {
-  width: 31.03448%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1.25em;
-  display: inline;
-}
 @media (min-width: 55em) {
   /* line 55, ../sass/base/_layout.scss */
   aside {
     width: 35.18519%;
     float: right;
     margin-right: 0;
-  }
-  /* line 77, ../sass/base/_layout.scss */
-  aside .block-webform {
-    width: 100%;
-    float: left;
-    margin-right: 3.44828%;
-  }
-  /* line 80, ../sass/base/_layout.scss */
-  aside .block-block {
-    width: 100%;
-    float: left;
-    margin-right: 3.44828%;
   }
 }
 /* line 105, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0/sass/susy/_media.scss */
@@ -461,20 +406,6 @@ aside .block-block {
   float: right;
   margin-right: 0;
   #margin-left: -1.25em;
-  display: inline;
-}
-/* line 77, ../sass/base/_layout.scss */
-.lt-ie9 aside .block-webform {
-  width: 100%;
-  float: left;
-  margin-right: 3.44828%;
-  display: inline;
-}
-/* line 80, ../sass/base/_layout.scss */
-.lt-ie9 aside .block-block {
-  width: 100%;
-  float: left;
-  margin-right: 3.44828%;
   display: inline;
 }
 

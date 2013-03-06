@@ -385,52 +385,12 @@ aside {
   margin-right: 1.85185%;
   display: inline;
 }
-/* line 58, ../sass/base/_layout.scss */
-aside .block-webform {
-  width: 100%;
-  float: left;
-  margin-right: 3.44828%;
-  display: inline;
-}
-/* line 61, ../sass/base/_layout.scss */
-aside .block-block {
-  width: 100%;
-  float: left;
-  margin-right: 3.44828%;
-  display: inline;
-}
-@media (min-width: 35em) {
-  /* line 66, ../sass/base/_layout.scss */
-  aside .block-webform {
-    width: 48.27586%;
-    float: left;
-    margin-right: 3.44828%;
-  }
-  /* line 69, ../sass/base/_layout.scss */
-  aside .block-block {
-    width: 31.03448%;
-    float: right;
-    margin-right: 0;
-  }
-}
 @media (min-width: 55em) {
   /* line 55, ../sass/base/_layout.scss */
   aside {
     width: 35.18519%;
     float: right;
     margin-right: 0;
-  }
-  /* line 77, ../sass/base/_layout.scss */
-  aside .block-webform {
-    width: 100%;
-    float: left;
-    margin-right: 3.44828%;
-  }
-  /* line 80, ../sass/base/_layout.scss */
-  aside .block-block {
-    width: 100%;
-    float: left;
-    margin-right: 3.44828%;
   }
 }
 
@@ -589,7 +549,7 @@ aside {
 aside h2 {
   margin-top: 0;
   color: #0c7ec3;
-  font-family: "caviar_dreamsregular", Arial, sans-serif;
+  font-family: "caviar_dreamsbold", Arial, sans-serif;
   font-weight: normal;
 }
 /* line 66, ../sass/base/_design.scss */
@@ -697,8 +657,10 @@ aside .form-actions .form-submit {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  font-family: "caviar_dreamsbold", Arial, sans-serif;
+  font-weight: normal;
 }
-/* line 147, ../sass/base/_design.scss */
+/* line 149, ../sass/base/_design.scss */
 aside .form-actions .form-submit:hover, aside .form-actions .form-submit:active, aside .form-actions .form-submit:focus {
   background-color: #0062a7;
   -webkit-transition: color 0.2s;
@@ -708,12 +670,12 @@ aside .form-actions .form-submit:hover, aside .form-actions .form-submit:active,
   transition: color 0.2s false;
 }
 
-/* line 159, ../sass/base/_design.scss */
+/* line 161, ../sass/base/_design.scss */
 .drupal-messages {
   margin-bottom: 2em;
 }
 
-/* line 164, ../sass/base/_design.scss */
+/* line 166, ../sass/base/_design.scss */
 .node-page p {
   margin-bottom: 10px;
 }
@@ -802,7 +764,7 @@ aside .form-actions .form-submit:hover, aside .form-actions .form-submit:active,
 /* line 56, ../sass/features/sub/_service.scss */
 .node-service.view-mode-teaser h2 {
   color: #0c7ec3;
-  font-family: "caviar_dreamsregular", Arial, sans-serif;
+  font-family: "caviar_dreamsbold", Arial, sans-serif;
   font-weight: normal;
 }
 /* line 62, ../sass/features/sub/_service.scss */
