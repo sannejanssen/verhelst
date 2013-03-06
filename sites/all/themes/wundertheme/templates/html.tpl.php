@@ -62,16 +62,16 @@
   <head>
     <title><?php print $head_title; ?></title>
     <?php print $head; ?>
-    <meta name="MobileOptimized" content="width">
-    <meta name="HandheldFriendly" content="true">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="cleartype" content="on">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <?php print $styles; ?>
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <?php print $scripts; ?>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
   </head>
   <body class="<?php print $classes; ?>" <?php print $attributes;?>>
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>

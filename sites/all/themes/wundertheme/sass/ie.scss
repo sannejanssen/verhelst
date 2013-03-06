@@ -38,3 +38,13 @@ $breakpoint-ie-output: true;
 /* ---------- Import features ---------- */
 
 @import 'features/features';
+
+
+aside {
+  .webform-component-textfield,
+  .webform-component-email {
+    label {
+      display: block;
+    }
+  } 
+}

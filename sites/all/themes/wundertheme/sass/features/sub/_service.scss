@@ -7,6 +7,14 @@
   &.view-mode-teaser {
     @include span-columns(6,6);
 
+    @include at-breakpoint(21em) {
+      @include span-columns(4,8);
+      
+      &:nth-child(2n+2) {
+        @include span-columns(4 omega,8);
+      }
+    }
+
     @include at-breakpoint($breakpoint_1) {
       @include span-columns(4,8);
       
@@ -29,11 +37,26 @@
 /* Theming */
 .node-service {
   &.view-mode-teaser {
-    margin-bottom: 4em; /* 64px on a 16px base font size */
+    margin-bottom: 3em; /* 64px on a 16px base font size */
     text-align: center;
+
+    .icon {
+      max-width: 6em;
+      margin-left: auto;
+      margin-right: auto;
+
+      img { 
+        height: auto;
+        width: 100%;
+      }
+    }
+
+    
     
     h2 {
       color: $verhelst-blue;
+      font-family: "caviar_dreamsregular", $base-font-family;
+      font-weight: normal;
     }
 
     p {
@@ -41,13 +64,9 @@
     }
 
     @include at-breakpoint($breakpoint_2) {
-      min-height: 23em;
+      min-height: 20em;
       margin-bottom: 2em;
     } 
-    @include at-breakpoint(65em lt-ie9) {
-      min-height: 20em;
-    } 
-
   }
 }
 

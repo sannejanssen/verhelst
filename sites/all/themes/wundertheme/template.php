@@ -21,9 +21,9 @@ function wundertheme_form_search_block_form_alter(&$form, &$form_state, $form_id
 function wundertheme_form_webform_client_form_10_alter(&$form, &$form_state, $form_id) {
 
   /* Hide label fields */
-  $form['submitted']['naam']['#title_display'] = 'none';
-  $form['submitted']['emailadres']['#title_display'] = 'none';
-  $form['submitted']['telefoon_gsm']['#title_display'] = 'none';
+  // $form['submitted']['naam']['#title_display'] = 'none';
+  // $form['submitted']['emailadres']['#title_display'] = 'none';
+  // $form['submitted']['telefoon_gsm']['#title_display'] = 'none';
 
   /* Add placeholders */
   $form['submitted']['naam']['#attributes']['placeholder'] = 'Naam *';

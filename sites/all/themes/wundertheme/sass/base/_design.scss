@@ -35,16 +35,37 @@ header {
     text-align: center;
     border-bottom: 1px solid #0c7ec3;
     padding: 1.250em 0; /* 20px 0 on a 16px base font size */
+
+    img {
+      max-width: 15em;
+
+      @include at-breakpoint($breakpoint_1) {
+        max-width: 25em;
+      }
+
+      @include at-breakpoint($breakpoint_2) {
+        max-width: 100%;
+      }
+    }
   }
 }
 
 aside {
   background-color: #f7f7f6;
-  padding: 40px;
+  padding: 4%;
 
   h2 {
     margin-top: 0;
     color: #0c7ec3;
+    font-family: "caviar_dreamsregular", $base-font-family;
+    font-weight: normal;
+  }
+
+  .webform-component-textfield,
+  .webform-component-email {
+    label {
+      display: none;
+    }
   }
 
   label {

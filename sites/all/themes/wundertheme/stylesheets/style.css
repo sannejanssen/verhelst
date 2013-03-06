@@ -4,14 +4,14 @@
  * This file is compiled into style.css
  */
 /* ---------- Compass Extensions ---------- */
-/* line 8, /Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
+/* line 8, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 4, /Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
+/* line 4, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
 img {
   max-width: 100%;
   height: auto;
@@ -33,7 +33,7 @@ img {
  *
  * Snippets of reusable CSS to develop faster and keep code readable
  */
-/* line 19, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 19, ../sass/base/logic/_normalize.scss */
 article,
 aside,
 details,
@@ -48,7 +48,7 @@ summary {
   display: block;
 }
 
-/* line 26, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 26, ../sass/base/logic/_normalize.scss */
 audio,
 canvas,
 video {
@@ -57,67 +57,67 @@ video {
   *zoom: 1;
 }
 
-/* line 36, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 36, ../sass/base/logic/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 43, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 43, ../sass/base/logic/_normalize.scss */
 [hidden] {
   display: none;
 }
 
-/* line 48, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 48, ../sass/base/logic/_normalize.scss */
 body {
   margin: 0;
 }
 
-/* line 55, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 55, ../sass/base/logic/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 62, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 62, ../sass/base/logic/_normalize.scss */
 a:hover,
 a:active {
   outline: 0;
 }
 
-/* line 67, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 67, ../sass/base/logic/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 73, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 73, ../sass/base/logic/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 77, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 77, ../sass/base/logic/_normalize.scss */
 blockquote {
   margin: 0;
 }
 
-/* line 82, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 82, ../sass/base/logic/_normalize.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 87, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 87, ../sass/base/logic/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 94, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 94, ../sass/base/logic/_normalize.scss */
 p,
 pre {
   margin: 0;
 }
 
-/* line 103, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 103, ../sass/base/logic/_normalize.scss */
 pre,
 code,
 kbd,
@@ -126,31 +126,31 @@ samp {
   _font-family: 'courier new', monospace;
 }
 
-/* line 111, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 111, ../sass/base/logic/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 119, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 119, ../sass/base/logic/_normalize.scss */
 q {
   quotes: none;
 }
 
-/* line 124, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 124, ../sass/base/logic/_normalize.scss */
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-/* line 129, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 129, ../sass/base/logic/_normalize.scss */
 small {
   font-size: 75%;
 }
 
-/* line 136, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 136, ../sass/base/logic/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -159,17 +159,17 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 143, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 143, ../sass/base/logic/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 147, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 147, ../sass/base/logic/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 158, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 158, ../sass/base/logic/_normalize.scss */
 dl,
 menu,
 ol,
@@ -178,48 +178,48 @@ dd {
   margin: 0;
 }
 
-/* line 165, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 165, ../sass/base/logic/_normalize.scss */
 menu,
 ol,
 ul {
   padding: 0;
 }
 
-/* line 171, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 171, ../sass/base/logic/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
   list-style-image: none;
 }
 
-/* line 181, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 181, ../sass/base/logic/_normalize.scss */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 189, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 189, ../sass/base/logic/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 196, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 196, ../sass/base/logic/_normalize.scss */
 figure {
   margin: 0;
 }
 
-/* line 203, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 203, ../sass/base/logic/_normalize.scss */
 form {
   margin: 0;
 }
 
-/* line 208, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 208, ../sass/base/logic/_normalize.scss */
 fieldset {
   border-color: #c0c0c0;
   margin: 0 2px;
 }
 
-/* line 216, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 216, ../sass/base/logic/_normalize.scss */
 legend {
   border: 0;
   padding: 0;
@@ -227,7 +227,7 @@ legend {
   *margin-left: -7px;
 }
 
-/* line 234, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 234, ../sass/base/logic/_normalize.scss */
 button,
 input,
 select,
@@ -238,13 +238,13 @@ textarea {
   *vertical-align: middle;
 }
 
-/* line 249, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 249, ../sass/base/logic/_normalize.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 260, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 260, ../sass/base/logic/_normalize.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -254,13 +254,13 @@ input[type="submit"] {
   *overflow: visible;
 }
 
-/* line 273, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 273, ../sass/base/logic/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
-/* line 282, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 282, ../sass/base/logic/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -271,7 +271,7 @@ input[type="radio"] {
   *width: 13px;
 }
 
-/* line 297, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 297, ../sass/base/logic/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -webkit-box-sizing: content-box;
@@ -279,26 +279,26 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 306, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 306, ../sass/base/logic/_normalize.scss */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
-/* line 313, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 313, ../sass/base/logic/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 320, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 320, ../sass/base/logic/_normalize.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 330, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_normalize.scss */
+/* line 330, ../sass/base/logic/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -309,16 +309,16 @@ table {
  *
  * Collect all of your extendable classes, ids and silent extendables.
  */
-/* line 18, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_extendables.scss */
+/* line 18, ../sass/base/logic/_extendables.scss */
 .clearfix, header, footer, .main {
   *zoom: 1;
 }
-/* line 21, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_extendables.scss */
+/* line 21, ../sass/base/logic/_extendables.scss */
 .clearfix:before, header:before, footer:before, .main:before, .clearfix:after, header:after, footer:after, .main:after {
   display: table;
   content: "";
 }
-/* line 25, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/logic/_extendables.scss */
+/* line 25, ../sass/base/logic/_extendables.scss */
 .clearfix:after, header:after, footer:after, .main:after {
   clear: both;
 }
@@ -345,7 +345,7 @@ table {
  */
 /* Breakpoints */
 /* Layout */
-/* line 36, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_layout.scss */
+/* line 36, ../sass/base/_layout.scss */
 .container {
   *zoom: 1;
   max-width: 67.5em;
@@ -355,15 +355,22 @@ table {
   padding-left: 0.625em;
   padding-right: 0.625em;
 }
-/* line 38, /Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
   content: "";
   display: table;
   clear: both;
 }
 
+/* line 45, ../sass/base/_layout.scss */
+.one-sidebar .main {
+  width: 100%;
+  float: left;
+  margin-right: 1.85185%;
+  display: inline;
+}
 @media (min-width: 55em) {
-  /* line 45, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_layout.scss */
+  /* line 45, ../sass/base/_layout.scss */
   .one-sidebar .main {
     width: 62.96296%;
     float: left;
@@ -371,21 +378,21 @@ table {
   }
 }
 
-/* line 53, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_layout.scss */
+/* line 55, ../sass/base/_layout.scss */
 aside {
   width: 100%;
   float: left;
   margin-right: 1.85185%;
   display: inline;
 }
-/* line 56, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_layout.scss */
+/* line 58, ../sass/base/_layout.scss */
 aside .block-webform {
   width: 100%;
   float: left;
   margin-right: 3.44828%;
   display: inline;
 }
-/* line 59, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_layout.scss */
+/* line 61, ../sass/base/_layout.scss */
 aside .block-block {
   width: 100%;
   float: left;
@@ -393,13 +400,13 @@ aside .block-block {
   display: inline;
 }
 @media (min-width: 35em) {
-  /* line 64, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_layout.scss */
+  /* line 66, ../sass/base/_layout.scss */
   aside .block-webform {
-    width: 65.51724%;
+    width: 48.27586%;
     float: left;
     margin-right: 3.44828%;
   }
-  /* line 67, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_layout.scss */
+  /* line 69, ../sass/base/_layout.scss */
   aside .block-block {
     width: 31.03448%;
     float: right;
@@ -407,19 +414,19 @@ aside .block-block {
   }
 }
 @media (min-width: 55em) {
-  /* line 53, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_layout.scss */
+  /* line 55, ../sass/base/_layout.scss */
   aside {
     width: 35.18519%;
     float: right;
     margin-right: 0;
   }
-  /* line 75, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_layout.scss */
+  /* line 77, ../sass/base/_layout.scss */
   aside .block-webform {
     width: 100%;
     float: left;
     margin-right: 3.44828%;
   }
-  /* line 78, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_layout.scss */
+  /* line 80, ../sass/base/_layout.scss */
   aside .block-block {
     width: 100%;
     float: left;
@@ -440,7 +447,23 @@ aside .block-block {
  *
  * If you change the base-font-size, check your grid settings in base/layout.scss 
  */
-/* line 27, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_typography.scss */
+@font-face {
+  font-family: 'caviar_dreamsbold';
+  src: url("../fonts/caviar_dreams_bold-webfont.eot");
+  src: url("../fonts/caviar_dreams_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/caviar_dreams_bold-webfont.woff") format("woff"), url("../fonts/caviar_dreams_bold-webfont.ttf") format("truetype"), url("../fonts/caviar_dreams_bold-webfont.svg#caviar_dreamsbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'caviar_dreamsregular';
+  src: url("../fonts/caviardreams-webfont.eot");
+  src: url("../fonts/caviardreams-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/caviardreams-webfont.woff") format("woff"), url("../fonts/caviardreams-webfont.ttf") format("truetype"), url("../fonts/caviardreams-webfont.svg#caviar_dreamsregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../sass/base/_typography.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -450,7 +473,7 @@ html {
   /* 2 */
 }
 
-/* line 38, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_typography.scss */
+/* line 60, ../sass/base/_typography.scss */
 html,
 button,
 input,
@@ -460,38 +483,38 @@ textarea {
 }
 
 /* Line-heights */
-/* line 45, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_typography.scss */
+/* line 67, ../sass/base/_typography.scss */
 h1 {
   font-size: 2em;
   line-height: 1.5em;
 }
 
-/* line 49, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_typography.scss */
+/* line 71, ../sass/base/_typography.scss */
 h2 {
   font-size: 1.625em;
   line-height: 1.84615em;
   line-height: 26px;
 }
 
-/* line 54, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_typography.scss */
+/* line 76, ../sass/base/_typography.scss */
 h3 {
   font-size: 1.17em;
   line-height: 1.28205em;
 }
 
-/* line 58, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_typography.scss */
+/* line 80, ../sass/base/_typography.scss */
 h4 {
   font-size: 1em;
   line-height: 1.5em;
 }
 
-/* line 62, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_typography.scss */
+/* line 84, ../sass/base/_typography.scss */
 h5 {
   font-size: 0.83em;
   line-height: 1.80723em;
 }
 
-/* line 66, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_typography.scss */
+/* line 88, ../sass/base/_typography.scss */
 h6 {
   font-size: 0.75em;
   line-height: 2em;
@@ -504,32 +527,32 @@ h6 {
  */
 /* Main menu */
 /* Base link settings */
-/* line 12, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 12, ../sass/base/_design.scss */
 a {
   color: #58b8d1;
 }
-/* line 16, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 16, ../sass/base/_design.scss */
 a:hover, a:focus {
   color: #df006e;
 }
 
-/* line 21, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 21, ../sass/base/_design.scss */
 html {
   color: #444444;
 }
-/* line 25, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 25, ../sass/base/_design.scss */
 html ::selection,
 html ::-moz-selection {
   color: #bbbbbb;
   background: #444444;
 }
 
-/* line 31, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 31, ../sass/base/_design.scss */
 header {
   margin-bottom: 3.750em;
   /* 60px on a 16px base font size */
 }
-/* line 33, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 33, ../sass/base/_design.scss */
 header .logo {
   width: 100%;
   float: left;
@@ -540,28 +563,51 @@ header .logo {
   padding: 1.250em 0;
   /* 20px 0 on a 16px base font size */
 }
+/* line 39, ../sass/base/_design.scss */
+header .logo img {
+  max-width: 15em;
+}
+@media (min-width: 35em) {
+  /* line 39, ../sass/base/_design.scss */
+  header .logo img {
+    max-width: 25em;
+  }
+}
+@media (min-width: 55em) {
+  /* line 39, ../sass/base/_design.scss */
+  header .logo img {
+    max-width: 100%;
+  }
+}
 
-/* line 41, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 53, ../sass/base/_design.scss */
 aside {
   background-color: #f7f7f6;
-  padding: 40px;
+  padding: 4%;
 }
-/* line 45, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 57, ../sass/base/_design.scss */
 aside h2 {
   margin-top: 0;
   color: #0c7ec3;
+  font-family: "caviar_dreamsregular", Arial, sans-serif;
+  font-weight: normal;
 }
-/* line 50, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 66, ../sass/base/_design.scss */
+aside .webform-component-textfield label,
+aside .webform-component-email label {
+  display: none;
+}
+/* line 71, ../sass/base/_design.scss */
 aside label {
   font-weight: normal;
 }
-/* line 55, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 76, ../sass/base/_design.scss */
 aside input,
 aside textarea {
   width: 100%;
   padding: 10px;
 }
-/* line 60, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 81, ../sass/base/_design.scss */
 aside .webform-component {
   width: 100%;
   float: left;
@@ -569,11 +615,11 @@ aside .webform-component {
   display: inline;
   margin-bottom: 0;
 }
-/* line 67, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 88, ../sass/base/_design.scss */
 aside .webform-component-checkboxes label span {
   color: #878786;
 }
-/* line 74, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 95, ../sass/base/_design.scss */
 aside .form-checkboxes .form-type-checkbox {
   width: 100%;
   float: left;
@@ -582,14 +628,14 @@ aside .form-checkboxes .form-type-checkbox {
   margin-bottom: 0;
   margin-top: 3px;
 }
-/* line 79, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 100, ../sass/base/_design.scss */
 aside .form-checkboxes .form-type-checkbox input {
   width: 6.04027%;
   float: left;
   margin-right: 0.67114%;
   display: inline;
 }
-/* line 82, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 103, ../sass/base/_design.scss */
 aside .form-checkboxes .form-type-checkbox label {
   width: 93.28859%;
   float: right;
@@ -598,13 +644,13 @@ aside .form-checkboxes .form-type-checkbox label {
   display: inline;
 }
 @media (min-width: 35em) {
-  /* line 87, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+  /* line 108, ../sass/base/_design.scss */
   aside .form-checkboxes .form-type-checkbox input {
     width: 4.52261%;
     float: left;
     margin-right: 0.50251%;
   }
-  /* line 90, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+  /* line 111, ../sass/base/_design.scss */
   aside .form-checkboxes .form-type-checkbox label {
     width: 94.97487%;
     float: right;
@@ -612,13 +658,13 @@ aside .form-checkboxes .form-type-checkbox label {
   }
 }
 @media (min-width: 40em) {
-  /* line 95, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+  /* line 116, ../sass/base/_design.scss */
   aside .form-checkboxes .form-type-checkbox input {
     width: 3.61446%;
     float: left;
     margin-right: 0.40161%;
   }
-  /* line 98, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+  /* line 119, ../sass/base/_design.scss */
   aside .form-checkboxes .form-type-checkbox label {
     width: 95.98394%;
     float: right;
@@ -626,20 +672,20 @@ aside .form-checkboxes .form-type-checkbox label {
   }
 }
 @media (min-width: 55em) {
-  /* line 103, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+  /* line 124, ../sass/base/_design.scss */
   aside .form-checkboxes .form-type-checkbox input {
     width: 7.25806%;
     float: left;
     margin-right: 0.80645%;
   }
-  /* line 106, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+  /* line 127, ../sass/base/_design.scss */
   aside .form-checkboxes .form-type-checkbox label {
     width: 91.93548%;
     float: right;
     margin-right: 0;
   }
 }
-/* line 114, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 135, ../sass/base/_design.scss */
 aside .form-actions .form-submit {
   background-color: #0c7ec3;
   border: none;
@@ -652,7 +698,7 @@ aside .form-actions .form-submit {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 126, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 147, ../sass/base/_design.scss */
 aside .form-actions .form-submit:hover, aside .form-actions .form-submit:active, aside .form-actions .form-submit:focus {
   background-color: #0062a7;
   -webkit-transition: color 0.2s;
@@ -662,12 +708,12 @@ aside .form-actions .form-submit:hover, aside .form-actions .form-submit:active,
   transition: color 0.2s false;
 }
 
-/* line 138, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 159, ../sass/base/_design.scss */
 .drupal-messages {
   margin-bottom: 2em;
 }
 
-/* line 143, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/base/_design.scss */
+/* line 164, ../sass/base/_design.scss */
 .node-page p {
   margin-bottom: 10px;
 }
@@ -685,21 +731,35 @@ aside .form-actions .form-submit:hover, aside .form-actions .form-submit:active,
  * Feature 1
  */
 /* Layout */
-/* line 7, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+/* line 7, ../sass/features/sub/_service.scss */
 .node-service.view-mode-teaser {
   width: 100%;
   float: left;
   margin-right: 3.44828%;
   display: inline;
 }
-@media (min-width: 35em) {
-  /* line 7, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+@media (min-width: 21em) {
+  /* line 7, ../sass/features/sub/_service.scss */
   .node-service.view-mode-teaser {
     width: 48.71795%;
     float: left;
     margin-right: 2.5641%;
   }
-  /* line 13, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+  /* line 13, ../sass/features/sub/_service.scss */
+  .node-service.view-mode-teaser:nth-child(2n+2) {
+    width: 48.71795%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 35em) {
+  /* line 7, ../sass/features/sub/_service.scss */
+  .node-service.view-mode-teaser {
+    width: 48.71795%;
+    float: left;
+    margin-right: 2.5641%;
+  }
+  /* line 21, ../sass/features/sub/_service.scss */
   .node-service.view-mode-teaser:nth-child(2n+2) {
     width: 48.71795%;
     float: right;
@@ -707,13 +767,13 @@ aside .form-actions .form-submit:hover, aside .form-actions .form-submit:active,
   }
 }
 @media (min-width: 55em) {
-  /* line 7, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+  /* line 7, ../sass/features/sub/_service.scss */
   .node-service.view-mode-teaser {
     width: 45.94595%;
     float: left;
     margin-right: 1.35135%;
   }
-  /* line 21, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+  /* line 29, ../sass/features/sub/_service.scss */
   .node-service.view-mode-teaser:nth-child(2n+2) {
     width: 45.94595%;
     float: left;
@@ -722,50 +782,57 @@ aside .form-actions .form-submit:hover, aside .form-actions .form-submit:active,
 }
 
 /* Theming */
-/* line 31, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+/* line 39, ../sass/features/sub/_service.scss */
 .node-service.view-mode-teaser {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   /* 64px on a 16px base font size */
   text-align: center;
 }
-/* line 35, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+/* line 43, ../sass/features/sub/_service.scss */
+.node-service.view-mode-teaser .icon {
+  max-width: 6em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 48, ../sass/features/sub/_service.scss */
+.node-service.view-mode-teaser .icon img {
+  height: auto;
+  width: 100%;
+}
+/* line 56, ../sass/features/sub/_service.scss */
 .node-service.view-mode-teaser h2 {
   color: #0c7ec3;
+  font-family: "caviar_dreamsregular", Arial, sans-serif;
+  font-weight: normal;
 }
-/* line 39, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+/* line 62, ../sass/features/sub/_service.scss */
 .node-service.view-mode-teaser p {
   padding: 0 1em;
 }
 @media (min-width: 55em) {
-  /* line 31, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+  /* line 39, ../sass/features/sub/_service.scss */
   .node-service.view-mode-teaser {
-    min-height: 23em;
+    min-height: 20em;
     margin-bottom: 2em;
   }
 }
-@media (min-width: 65em) {
-  /* line 31, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
-  .node-service.view-mode-teaser {
-    min-height: 20em;
-  }
-}
 
-/* line 55, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+/* line 74, ../sass/features/sub/_service.scss */
 .view-mode-teaser.heating h2 {
   color: #0c7ec3;
 }
 
-/* line 58, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+/* line 77, ../sass/features/sub/_service.scss */
 .view-mode-teaser.ventilation h2 {
   color: #6ba5d9;
 }
 
-/* line 61, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+/* line 80, ../sass/features/sub/_service.scss */
 .view-mode-teaser.sanitair h2 {
   color: #0062a7;
 }
 
-/* line 64, /Users/Sanne/workspace/sannejanssen/verhelst/sites/all/themes/wundertheme/sass/features/sub/_service.scss */
+/* line 83, ../sass/features/sub/_service.scss */
 .view-mode-teaser.solar h2 {
   color: #84d0f5;
 }
